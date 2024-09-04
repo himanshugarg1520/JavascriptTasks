@@ -1,0 +1,42 @@
+<!-- Create a random method which will return a hexadecimal value. Then convert that hexadecimal color value to RGB color 
+    and also show that color, RGB value and hexadecimal value on the web page. Also, create two buttons: 
+start and stop.
+Start Button - for calling random methods on a 2 second interval basis.
+Stop Button - to stop random method calling. 
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+    <link rel="stylesheet" href="css1.css">
+
+</head>
+<body>
+
+    <div id="color-display" class="color-display">
+
+        <div id="color-box" class="color-box"></div>
+
+        <p id="color-info">
+            Hex: <span id="hex-value">#FFFFFF</span><br>
+            RGB: <span id="rgb-value">rgb(255, 255, 255)</span>
+        </p>
+
+    </div>
+    <button id="start-btn" class="control-btn">
+        Start
+    </button>
+    <button id="stop-btn" class="control-btn">
+        Stop
+    </button> 
+
+
+    <script src="javascript1.js"></script>
+    
+</body>
+</html>
